@@ -4,9 +4,9 @@ public class Multiples {
         int count = 0;
         for (int i = 1; i < 1000; i++) {
             boolean multipleOf3 = i % 3 == 0;
-            boolean multipleof5 = i % 5 == 0;
+            boolean multipleOf5 = i % 5 == 0;
 
-            if (multipleOf3 || multipleof5) {
+            if (multipleOf3 || multipleOf5) {
                 count++;
             }
         }
