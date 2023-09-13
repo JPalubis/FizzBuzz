@@ -1,5 +1,5 @@
 public class Reduce {
-    public int main(int n) {
+    public static int main(int n) {
         int steps = 0;
         for (; n > 0; steps++) {
             if (n % 2 == 1) {
